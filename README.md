@@ -1,6 +1,6 @@
-# Codex plugin for Claude Code
+# Sidecar Supervisor For Claude Code
 
-Use Codex from inside Claude Code for code reviews, task delegation, or supervised runs with Strap sidecar telemetry.
+Use Codex from inside Claude Code for code reviews, task delegation, or supervised runs under Sidecar Supervisor with Strap telemetry.
 
 This plugin is for Claude Code users who want an easy way to start using Codex from the workflow
 they already have.
@@ -25,13 +25,13 @@ they already have.
 Add the marketplace in Claude Code:
 
 ```bash
-/plugin marketplace add openai/codex-plugin-cc
+/plugin marketplace add Anansitrading/sidecar-supervisor
 ```
 
 Install the plugin:
 
 ```bash
-/plugin install codex@openai-codex
+/plugin install codex@sidecar-supervisor
 ```
 
 Reload plugins:
